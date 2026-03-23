@@ -1,0 +1,17 @@
+:root {
+  --s-black:      #06020E;
+  --s-void:       #0C0016;
+  --s-deep-pur:   #1C0030;
+  --s-dark-pur:   #2D054B;
+  --s-maroon:     #8a2251;
+  --s-pink:       #FF1493;
+  --s-fuchsia:    #D200C8;
+  --s-purple:     #9400D3;
+  --s-crimson:    #B40A3C;
+  --s-gold:       #D4AF37;
+  --s-gold-dim:   #8C6E1E;
+  --s-teal:       #00C8B4;
+  --s-white-rose: #FFDCF0;
+  --s-grey:       #5A466E;
+  --s-orange:     #FF8C00;
+}

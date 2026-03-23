@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+            <nav>
+                    <a href="index.html" title="Main Page" target="_self">Home ♦</a>
+                    <a href="Downloads.html" title="Download our demo" target="_self">Demo ♦</a>
+                    <a href="https://www.patreon.com/SuccubusIsland" title="Patreon Page" target="_blank">Patreon ♦</a>
+                    <a href="https://succubusisland.itch.io/succubusisland" title="Itch.io page" target="_blank">itch.io ♦</a>
+            </nav>
+    </header>
+    <h1>Contact Us</h1>
+    <form action="codigo.php" method="post">
+        <input required type="text" name="name" placeholder="Name & Lastname" minlength="5" maxlength="25"><br>
+        <input required type="email" name="email" placeholder="Email"><br>
+        <select name="service">
+            <option value="">Choose option</option>
+            <option value="Request">Request</option>
+            <option value="Work with us">Work with us</option>
+            <option value="Claim">Claim</option>
+            <option value="Other">Other</option>
+        </select><br>
+        <textarea name="comments" placeholder="Write something"></textarea><br>
+        <button>Send</button>
+    </form>
+    <footer><span>&copy;Copyright-Succubus Island</span></footer> 
+</body>
+</html>
